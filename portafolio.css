@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* ==== RESETEO BÁSICO ==== */
+/* basico */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
 }
 
-/* ==== ENCABEZADO ==== */
+/* encabezado */
 .header {
   background-color: #ffffff;
   padding: 40px 20px;
@@ -34,7 +34,7 @@ body {
   color: #7f8c8d;
 }
 
-/* ==== SECCIÓN DE PORTAFOLIO ==== */
+/* portafolio */
 .portfolio-section {
   padding: 50px 20px;
   text-align: center;
@@ -47,7 +47,7 @@ body {
   color:hotpink;
 }
 
-/* ==== GRID DE PROYECTOS ==== */
+/* proyectos */
 .portfolio-grid {
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -56,7 +56,7 @@ body {
   margin: 0 auto;
 }
 
-/* ==== CADA ITEM ==== */
+/* organización */
 .portfolio-item {
   background-color: #ffffff;
   border-radius: 10px;
@@ -94,7 +94,7 @@ body {
   border-radius: 8px;
 }
 
-/* ==== PIE DE PÁGINA ==== */
+/* pie de pagina */
 footer {
   background-color:hotpink;
   color: white;
@@ -104,7 +104,7 @@ footer {
   margin-top: 40px;
 }
 
-/* ==== RESPONSIVO EXTRA ==== */
+/* extra */
 @media (max-width: 600px) {
   .header h1 {
     font-size: 24px;
