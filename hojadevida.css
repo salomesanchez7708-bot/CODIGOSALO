@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ body {
+  background-color: #ec88ab ;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Imagen en el header */
+header img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Títulos principales */
+h1 {
+  font-size: 2em;
+  margin: 10px 0;
+  color:#f53376;
+}
+
+h2 {
+  color: #f53376 ;
+  border-bottom: 2px solid #f53376 ;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Sección general */
+.section {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+/* Artículos dentro de las secciones */
+article {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #f53376 ;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Lista de habilidades */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
