@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ==== RESETEO BÁSICO ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ==== ENCABEZADO PRINCIPAL ==== */
+.main-header {
+  background-color: #ffffff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color:hotpink;
+}
+
+.logo p {
+  font-size: 14px;
+  color:#020202;
+}
+
+.nav-menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  color:hotpink;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color:hotpink;
+}
+
+/* ==== SECCIÓN DE INTRODUCCIÓN ==== */
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin-right: 40px;
+}
+
+.intro-text h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color:hotpink;
+}
+
+.intro-text p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* ==== BOTONES ==== */
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.download {
+  background-color:hotpink ;
+  color: white;
+}
+
+.download:hover {
+  background-color:hotpink;
+}
+
+.learn {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #ccc;
+}
+
+.learn:hover {
+  background-color: #ecf0f1;
+}
+
+/* ==== IMAGEN PERSONAL ==== */
+.intro-image img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ==== RESPONSIVO ==== */
+@media (max-width: 900px) {
+  .intro-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .intro-text {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  .intro-image img {
+    width: 90%;
+    max-width: 320px;
+  }
+}
